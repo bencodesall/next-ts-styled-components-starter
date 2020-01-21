@@ -20,6 +20,10 @@
     "resolveJsonModule": true,
     "isolatedModules": true
   },
+  "typedocOptions": {
+    "mode": "modules",
+    "out": "docs"
+  },
   "exclude": [
     "node_modules",
     "temp"
