@@ -5,12 +5,12 @@ import { ThemeProvider } from "styled-components";
 import { theme } from "../src/styles/theme_default";
 
 export default class MyApp extends App {
-    render() {
-        const { Component, pageProps } = this.props;
-        return (
-            <ThemeProvider theme={theme}>
-                <Component {...pageProps} />
-            </ThemeProvider>
-        );
-    }
+  render() {
+    const { Component, pageProps } = this.props;
+    return (
+      <ThemeProvider theme={theme}>
+        <Component {...pageProps} />
+      </ThemeProvider>
+    );
+  }
 }
